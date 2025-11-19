@@ -1,0 +1,197 @@
+{
+  "maps": [
+    {
+      "id": "forest_path",
+      "name": "Forest Path",
+      "width": 20,
+      "height": 15,
+      "tile_size": 32,
+      "texture": "map_forest_path",
+      "path": [
+        {"x": 1, "y": 2},
+        {"x": 8, "y": 2},
+        {"x": 8, "y": 7},
+        {"x": 15, "y": 7},
+        {"x": 15, "y": 12},
+        {"x": 5, "y": 12}
+      ],
+      "blocked_tiles": [
+        [5,5], [6,5], [7,5], [12,8], [13,8], [10,10]
+      ]
+    },
+    {
+      "id": "mountain_pass",
+      "name": "Mountain Pass", 
+      "width": 25,
+      "height": 18,
+      "tile_size": 32,
+      "texture": "map_mountain_pass",
+      "path": [
+        {"x": 2, "y": 2},
+        {"x": 12, "y": 2},
+        {"x": 12, "y": 7},
+        {"x": 2, "y": 7},
+        {"x": 2, "y": 10},
+        {"x": 22, "y": 10},
+        {"x": 22, "y": 15},
+        {"x": 12, "y": 15}
+      ],
+      "blocked_tiles": [
+        [8,4], [9,4], [15,4], [16,4], [5,12], [6,12], [18,12], [19,12]
+      ]
+    },
+    {
+      "id": "desert_oasis",
+      "name": "Desert Oasis",
+      "width": 22,
+      "height": 16,
+      "tile_size": 32,
+      "texture": "map_desert_oasis",
+      "path": [
+        {"x": 1, "y": 3},
+        {"x": 10, "y": 3},
+        {"x": 10, "y": 8},
+        {"x": 18, "y": 8},
+        {"x": 18, "y": 13},
+        {"x": 5, "y": 13}
+      ],
+      "blocked_tiles": [
+        [4,5], [5,5], [15,6], [16,6], [8,10], [9,10], [12,11], [13,11]
+      ]
+    },
+    {
+      "id": "ice_cavern",
+      "name": "Ice Cavern",
+      "width": 18,
+      "height": 14,
+      "tile_size": 32,
+      "texture": "map_ice_cavern",
+      "path": [
+        {"x": 2, "y": 2},
+        {"x": 8, "y": 2},
+        {"x": 8, "y": 6},
+        {"x": 14, "y": 6},
+        {"x": 14, "y": 10},
+        {"x": 5, "y": 10}
+      ],
+      "blocked_tiles": [
+        [5,4], [6,4], [10,5], [11,5], [7,8], [8,8], [12,7], [13,7]
+      ]
+    },
+    {
+      "id": "volcano_lair",
+      "name": "Volcano Lair",
+      "width": 24,
+      "height": 16,
+      "tile_size": 32,
+      "texture": "map_volcano_lair",
+      "path": [
+        {"x": 3, "y": 2},
+        {"x": 12, "y": 2},
+        {"x": 12, "y": 8},
+        {"x": 20, "y": 8},
+        {"x": 20, "y": 14},
+        {"x": 8, "y": 14}
+      ],
+      "blocked_tiles": [
+        [6,4], [7,4], [16,6], [17,6], [10,10], [11,10], [14,12], [15,12]
+      ]
+    },
+    {
+      "id": "castle_ruins",
+      "name": "Castle Ruins",
+      "width": 20,
+      "height": 18,
+      "tile_size": 32,
+      "texture": "map_castle_ruins",
+      "path": [
+        {"x": 1, "y": 3},
+        {"x": 6, "y": 3},
+        {"x": 6, "y": 8},
+        {"x": 14, "y": 8},
+        {"x": 14, "y": 14},
+        {"x": 8, "y": 14}
+      ],
+      "blocked_tiles": [
+        [3,5], [4,5], [12,6], [13,6], [7,10], [8,10], [10,12], [11,12]
+      ]
+    },
+    {
+      "id": "swamp_marsh",
+      "name": "Swamp Marsh",
+      "width": 22,
+      "height": 15,
+      "tile_size": 32,
+      "texture": "map_swamp_marsh",
+      "path": [
+        {"x": 2, "y": 2},
+        {"x": 11, "y": 2},
+        {"x": 11, "y": 7},
+        {"x": 19, "y": 7},
+        {"x": 19, "y": 12},
+        {"x": 6, "y": 12}
+      ],
+      "blocked_tiles": [
+        [5,4], [6,4], [14,5], [15,5], [8,9], [9,9], [12,10], [13,10]
+      ]
+    },
+    {
+      "id": "crystal_mines",
+      "name": "Crystal Mines",
+      "width": 26,
+      "height": 20,
+      "tile_size": 32,
+      "texture": "map_crystal_mines",
+      "path": [
+        {"x": 3, "y": 3},
+        {"x": 13, "y": 3},
+        {"x": 13, "y": 10},
+        {"x": 22, "y": 10},
+        {"x": 22, "y": 17},
+        {"x": 8, "y": 17}
+      ],
+      "blocked_tiles": [
+        [7,5], [8,5], [17,7], [18,7], [10,12], [11,12], [15,14], [16,14], [12,8], [13,8]
+      ]
+    },
+    {
+      "id": "ancient_temple",
+      "name": "Ancient Temple",
+      "width": 28,
+      "height": 22,
+      "tile_size": 32,
+      "texture": "map_ancient_temple",
+      "path": [
+        {"x": 2, "y": 4},
+        {"x": 14, "y": 4},
+        {"x": 14, "y": 12},
+        {"x": 25, "y": 12},
+        {"x": 25, "y": 19},
+        {"x": 10, "y": 19}
+      ],
+      "blocked_tiles": [
+        [6,6], [7,6], [18,8], [19,8], [11,14], [12,14], [16,16], [17,16], [8,10], [9,10], [20,10], [21,10]
+      ]
+    },
+    {
+      "id": "dragon_peak",
+      "name": "Dragon's Peak",
+      "width": 30,
+      "height": 24,
+      "tile_size": 32,
+      "texture": "map_dragon_peak",
+      "path": [
+        {"x": 3, "y": 3},
+        {"x": 15, "y": 3},
+        {"x": 15, "y": 12},
+        {"x": 26, "y": 12},
+        {"x": 26, "y": 20},
+        {"x": 12, "y": 20}
+      ],
+      "blocked_tiles": [
+        [8,5], [9,5], [20,7], [21,7], [13,14], [14,14], [18,16], [19,16], 
+        [10,8], [11,8], [22,9], [23,9], [7,15], [8,15], [17,18], [18,18]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "waves": [
+    {
+      "id": 1,
+      "name": "First Assault",
+      "groups": [
+        {
+          "enemy_id": "goblin",
+          "count": 10,
+          "interval": 2.0,
+          "delay": 3.0
+        }
+      ],
+      "reward": 50
+    },
+    {
+      "id": 2,
+      "name": "Goblin Horde",
+      "groups": [
+        {
+          "enemy_id": "goblin",
+          "count": 15,
+          "interval": 1.5,
+          "delay": 2.0
+        }
+      ],
+      "reward": 75
+    },
+    {
+      "id": 3,
+      "name": "Mixed Forces",
+      "groups": [
+        {
+          "enemy_id": "goblin",
+          "count": 12,
+          "interval": 1.8,
+          "delay": 2.0
+        },
+        {
+          "enemy_id": "orc",
+          "count": 5,
+          "interval": 3.0,
+          "delay": 15.0
+        }
+      ],
+      "reward": 120
+    },
+    {
+      "id": 4,
+      "name": "Orc Battalion",
+      "groups": [
+        {
+          "enemy_id": "orc",
+          "count": 8,
+          "interval": 2.5,
+          "delay": 3.0
+        },
+        {
+          "enemy_id": "goblin_rider",
+          "count": 4,
+          "interval": 4.0,
+          "delay": 20.0
+        }
+      ],
+      "reward": 180
+    },
+    {
+      "id": 5,
+      "name": "Boss Wave",
+      "groups": [
+        {
+          "enemy_id": "troll",
+          "count": 2,
+          "interval": 10.0,
+          "delay": 5.0
+        },
+        {
+          "enemy_id": "orc",
+          "count": 6,
+          "interval": 2.0,
+          "delay": 25.0
+        },
+        {
+          "enemy_id": "goblin",
+          "count": 10,
+          "interval": 1.0,
+          "delay": 40.0
+        }
+      ],
+      "reward": 300
+    },
+    {
+      "id": 6,
+      "name": "Shadow Invasion",
+      "groups": [
+        {
+          "enemy_id": "goblin_archer",
+          "count": 8,
+          "interval": 2.2,
+          "delay": 3.0
+        },
+        {
+          "enemy_id": "specter",
+          "count": 3,
+          "interval": 5.0,
+          "delay": 18.0
+        },
+        {
+          "enemy_id": "rogue",
+          "count": 6,
+          "interval": 2.8,
+          "delay": 30.0
+        }
+      ],
+      "reward": 350
+    },
+    {
+      "id": 7,
+      "name": "Beast Tide",
+      "groups": [
+        {
+          "enemy_id": "wolf_rider",
+          "count": 12,
+          "interval": 1.8,
+          "delay": 4.0
+        },
+        {
+          "enemy_id": "giant_spider",
+          "count": 5,
+          "interval": 3.5,
+          "delay": 22.0
+        },
+        {
+          "enemy_id": "dragon_whelp",
+          "count": 4,
+          "interval": 6.0,
+          "delay": 35.0
+        }
+      ],
+      "reward": 420
+    },
+    {
+      "id": 8,
+      "name": "Dark Legion",
+      "groups": [
+        {
+          "enemy_id": "dark_knight",
+          "count": 6,
+          "interval": 4.0,
+          "delay": 5.0
+        },
+        {
+          "enemy_id": "orc_shaman",
+          "count": 4,
+          "interval": 3.0,
+          "delay": 25.0
+        },
+        {
+          "enemy_id": "specter",
+          "count": 8,
+          "interval": 2.5,
+          "delay": 40.0
+        }
+      ],
+      "reward": 500
+    },
+    {
+      "id": 9,
+      "name": "Elemental Onslaught",
+      "groups": [
+        {
+          "enemy_id": "goblin",
+          "count": 20,
+          "interval": 1.2,
+          "delay": 3.0
+        },
+        {
+          "enemy_id": "orc",
+          "count": 10,
+          "interval": 2.0,
+          "delay": 20.0
+        },
+        {
+          "enemy_id": "troll",
+          "count": 4,
+          "interval": 8.0,
+          "delay": 35.0
+        },
+        {
+          "enemy_id": "ogre",
+          "count": 1,
+          "interval": 15.0,
+          "delay": 50.0
+        }
+      ],
+      "reward": 600
+    },
+    {
+      "id": 10,
+      "name": "Final Stand",
+      "groups": [
+        {
+          "enemy_id": "dark_knight",
+          "count": 8,
+          "interval": 3.5,
+          "delay": 5.0
+        },
+        {
+          "enemy_id": "orc_shaman",
+          "count": 6,
+          "interval": 4.0,
+          "delay": 25.0
+        },
+        {
+          "enemy_id": "dragon_whelp",
+          "count": 6,
+          "interval": 5.0,
+          "delay": 40.0
+        },
+        {
+          "enemy_id": "ogre",
+          "count": 3,
+          "interval": 12.0,
+          "delay": 55.0
+        }
+      ],
+      "reward": 750
+    },
+    {
+      "id": 11,
+      "name": "Nightmare Wave",
+      "groups": [
+        {
+          "enemy_id": "specter",
+          "count": 15,
+          "interval": 1.8,
+          "delay": 4.0
+        },
+        {
+          "enemy_id": "giant_spider",
+          "count": 10,
+          "interval": 2.5,
+          "delay": 25.0
+        },
+        {
+          "enemy_id": "dark_knight",
+          "count": 5,
+          "interval": 4.5,
+          "delay": 45.0
+        }
+      ],
+      "reward": 850
+    },
+    {
+      "id": 12,
+      "name": "Dragon's Wrath",
+      "groups": [
+        {
+          "enemy_id": "dragon_whelp",
+          "count": 12,
+          "interval": 3.0,
+          "delay": 5.0
+        },
+        {
+          "enemy_id": "orc",
+          "count": 15,
+          "interval": 1.5,
+          "delay": 30.0
+        },
+        {
+          "enemy_id": "troll",
+          "count": 6,
+          "interval": 6.0,
+          "delay": 50.0
+        }
+      ],
+      "reward": 950
+    },
+    {
+      "id": 13,
+      "name": "Endless Horde",
+      "groups": [
+        {
+          "enemy_id": "goblin",
+          "count": 25,
+          "interval": 1.0,
+          "delay": 3.0
+        },
+        {
+          "enemy_id": "orc",
+          "count": 20,
+          "interval": 1.2,
+          "delay": 20.0
+        },
+        {
+          "enemy_id": "goblin_rider",
+          "count": 15,
+          "interval": 1.8,
+          "delay": 40.0
+        },
+        {
+          "enemy_id": "wolf_rider",
+          "count": 10,
+          "interval": 2.2,
+          "delay": 60.0
+        }
+      ],
+      "reward": 1100
+    },
+    {
+      "id": 14,
+      "name": "Apocalypse",
+      "groups": [
+        {
+          "enemy_id": "ogre",
+          "count": 5,
+          "interval": 10.0,
+          "delay": 5.0
+        },
+        {
+          "enemy_id": "dark_knight",
+          "count": 10,
+          "interval": 3.0,
+          "delay": 30.0
+        },
+        {
+          "enemy_id": "dragon_whelp",
+          "count": 8,
+          "interval": 4.0,
+          "delay": 50.0
+        },
+        {
+          "enemy_id": "troll",
+          "count": 8,
+          "interval": 5.0,
+          "delay": 70.0
+        }
+      ],
+      "reward": 1300
+    },
+    {
+      "id": 15,
+      "name": "Final Boss",
+      "groups": [
+        {
+          "enemy_id": "ogre",
+          "count": 3,
+          "interval": 15.0,
+          "delay": 5.0
+        },
+        {
+          "enemy_id": "dark_knight",
+          "count": 8,
+          "interval": 4.0,
+          "delay": 25.0
+        },
+        {
+          "enemy_id": "dragon_whelp",
+          "count": 6,
+          "interval": 5.0,
+          "delay": 45.0
+        },
+        {
+          "enemy_id": "specter",
+          "count": 12,
+          "interval": 2.0,
+          "delay": 65.0
+        },
+        {
+          "enemy_id": "boss_dragon",
+          "count": 1,
+          "interval": 30.0,
+          "delay": 90.0
+        }
+      ],
+      "reward": 2000
+    }
+  ]
+}

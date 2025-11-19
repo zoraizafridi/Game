@@ -1,0 +1,335 @@
+{
+  "units": [
+    {
+      "id": "archer",
+      "name": "Elven Archer",
+      "health": 60,
+      "speed": 70,
+      "damage": 25,
+      "attack_range": 180,
+      "attack_speed": 1.8,
+      "cost": 80,
+      "texture": "units/eleven_archer",
+      "projectile_texture": "projectiles/arrow",
+      "is_melee": false,
+      "abilities": ["ranged_attack"],
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 120,
+          "damage": 40,
+          "attack_range": 200
+        },
+        {
+          "level": 3,
+          "cost": 200,
+          "damage": 60,
+          "attack_speed": 2.2
+        }
+      ]
+    },
+    {
+      "id": "knight",
+      "name": "Royal Knight",
+      "health": 150,
+      "speed": 50,
+      "damage": 40,
+      "attack_range": 40,
+      "attack_speed": 1.2,
+      "cost": 120,
+      "texture": "units/royal_knight",
+      "is_melee": true,
+      "abilities": ["melee_attack", "charge"],
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 180,
+          "damage": 60,
+          "health": 200
+        },
+        {
+          "level": 3,
+          "cost": 280,
+          "damage": 85,
+          "attack_speed": 1.5
+        }
+      ]
+    },
+    {
+      "id": "mage",
+      "name": "Battle Mage",
+      "health": 80,
+      "speed": 55,
+      "damage": 35,
+      "attack_range": 220,
+      "attack_speed": 1.5,
+      "cost": 150,
+      "texture": "units/battle_mage",
+      "projectile_texture": "projectiles/fireball",
+      "is_melee": false,
+      "abilities": ["ranged_attack", "fire_blast"],
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 220,
+          "damage": 55,
+          "attack_range": 250
+        },
+        {
+          "level": 3,
+          "cost": 350,
+          "damage": 80,
+          "attack_speed": 1.8
+        }
+      ]
+    },
+    {
+      "id": "rogue",
+      "name": "Shadow Rogue",
+      "health": 90,
+      "speed": 85,
+      "damage": 30,
+      "attack_range": 50,
+      "attack_speed": 2.0,
+      "cost": 100,
+      "texture": "units/shadow_rogue",
+      "is_melee": true,
+      "abilities": ["melee_attack", "backstab"],
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 150,
+          "damage": 45,
+          "speed": 95
+        },
+        {
+          "level": 3,
+          "cost": 250,
+          "damage": 65,
+          "attack_speed": 2.5
+        }
+      ]
+    },
+    {
+      "id": "paladin",
+      "name": "Holy Paladin",
+      "health": 200,
+      "speed": 45,
+      "damage": 35,
+      "attack_range": 60,
+      "attack_speed": 1.1,
+      "cost": 180,
+      "texture": "units/holy_paladin",
+      "is_melee": true,
+      "abilities": ["melee_attack", "heal_aura"],
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 270,
+          "damage": 50,
+          "health": 280
+        },
+        {
+          "level": 3,
+          "cost": 400,
+          "damage": 70,
+          "attack_speed": 1.4
+        }
+      ]
+    },
+    {
+      "id": "ranger",
+      "name": "Forest Ranger",
+      "health": 70,
+      "speed": 75,
+      "damage": 28,
+      "attack_range": 250,
+      "attack_speed": 1.6,
+      "cost": 130,
+      "texture": "units/forest_ranger",
+      "projectile_texture": "projectiles/arrow",
+      "is_melee": false,
+      "abilities": ["ranged_attack", "multi_shot"],
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 200,
+          "damage": 42,
+          "attack_range": 280
+        },
+        {
+          "level": 3,
+          "cost": 320,
+          "damage": 60,
+          "attack_speed": 2.0
+        }
+      ]
+    },
+    {
+      "id": "berserker",
+      "name": "Mountain Berserker",
+      "health": 120,
+      "speed": 60,
+      "damage": 55,
+      "attack_range": 45,
+      "attack_speed": 1.3,
+      "cost": 160,
+      "texture": "units/mountain_berserker",
+      "is_melee": true,
+      "abilities": ["melee_attack", "rage"],
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 240,
+          "damage": 80,
+          "health": 160
+        },
+        {
+          "level": 3,
+          "cost": 380,
+          "damage": 110,
+          "attack_speed": 1.6
+        }
+      ]
+    },
+    {
+      "id": "priest",
+      "name": "Divine Priest",
+      "health": 100,
+      "speed": 50,
+      "damage": 20,
+      "attack_range": 200,
+      "attack_speed": 1.4,
+      "cost": 140,
+      "texture": "units/divine_priest",
+      "projectile_texture": "projectiles/holy_light",
+      "is_melee": false,
+      "abilities": ["ranged_attack", "heal"],
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 210,
+          "damage": 30,
+          "attack_range": 230
+        },
+        {
+          "level": 3,
+          "cost": 330,
+          "damage": 45,
+          "attack_speed": 1.8
+        }
+      ]
+    },
+    {
+      "id": "necromancer",
+      "name": "Dark Necromancer",
+      "health": 85,
+      "speed": 48,
+      "damage": 32,
+      "attack_range": 240,
+      "attack_speed": 1.3,
+      "cost": 170,
+      "texture": "units/dark_necromancer",
+      "projectile_texture": "projectiles/shadow_bolt",
+      "is_melee": false,
+      "abilities": ["ranged_attack", "summon_skeleton"],
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 255,
+          "damage": 48,
+          "attack_range": 270
+        },
+        {
+          "level": 3,
+          "cost": 400,
+          "damage": 68,
+          "attack_speed": 1.7
+        }
+      ]
+    },
+    {
+      "id": "druid",
+      "name": "Ancient Druid",
+      "health": 110,
+      "speed": 52,
+      "damage": 26,
+      "attack_range": 210,
+      "attack_speed": 1.5,
+      "cost": 190,
+      "texture": "units/ancient_druid",
+      "projectile_texture": "projectiles/nature_blast",
+      "is_melee": false,
+      "abilities": ["ranged_attack", "entangle"],
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 285,
+          "damage": 39,
+          "attack_range": 240
+        },
+        {
+          "level": 3,
+          "cost": 450,
+          "damage": 55,
+          "attack_speed": 1.9
+        }
+      ]
+    },
+    {
+      "id": "engineer",
+      "name": "Battle Engineer",
+      "health": 95,
+      "speed": 58,
+      "damage": 38,
+      "attack_range": 190,
+      "attack_speed": 1.7,
+      "cost": 210,
+      "texture": "units/battle_engineer",
+      "projectile_texture": "projectiles/bolt",
+      "is_melee": false,
+      "abilities": ["ranged_attack", "turret_deploy"],
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 315,
+          "damage": 57,
+          "attack_range": 220
+        },
+        {
+          "level": 3,
+          "cost": 500,
+          "damage": 80,
+          "attack_speed": 2.1
+        }
+      ]
+    },
+    {
+      "id": "monk",
+      "name": "Martial Monk",
+      "health": 130,
+      "speed": 78,
+      "damage": 42,
+      "attack_range": 55,
+      "attack_speed": 1.8,
+      "cost": 220,
+      "texture": "units/martial_monk",
+      "is_melee": true,
+      "abilities": ["melee_attack", "stun_strike"],
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 330,
+          "damage": 63,
+          "health": 170
+        },
+        {
+          "level": 3,
+          "cost": 520,
+          "damage": 88,
+          "attack_speed": 2.2
+        }
+      ]
+    }
+  ]
+}

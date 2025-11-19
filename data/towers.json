@@ -1,0 +1,340 @@
+{
+  "towers": [
+    {
+      "id": "arrow_tower",
+      "name": "Arrow Tower",
+      "description": "Basic ranged tower",
+      "cost": 100,
+      "range": 200,
+      "damage": 15,
+      "attack_speed": 1.5,
+      "projectile_speed": 400,
+      "texture": "towers/tower_03",
+      "projectile_texture": "projectiles/arrow",
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 150,
+          "damage": 25,
+          "range": 220,
+          "attack_speed": 1.8
+        },
+        {
+          "level": 3, 
+          "cost": 250,
+          "damage": 40,
+          "range": 250,
+          "attack_speed": 2.0
+        }
+      ]
+    },
+    {
+      "id": "cannon_tower",
+      "name": "Cannon Tower",
+      "description": "Slow but powerful AoE damage",
+      "cost": 200,
+      "range": 180,
+      "damage": 50,
+      "attack_speed": 0.8,
+      "projectile_speed": 300,
+      "texture": "towers/tower_04",
+      "projectile_texture": "projectiles/cannonball",
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 300,
+          "damage": 80,
+          "range": 200,
+          "attack_speed": 1.0
+        },
+        {
+          "level": 3,
+          "cost": 500,
+          "damage": 120,
+          "range": 220,
+          "attack_speed": 1.2
+        }
+      ]
+    },
+    {
+      "id": "mage_tower",
+      "name": "Mage Tower", 
+      "description": "Magical attacks with special effects",
+      "cost": 300,
+      "range": 250,
+      "damage": 20,
+      "attack_speed": 1.2,
+      "projectile_speed": 350,
+      "texture": "towers/tower_10",
+      "projectile_texture": "projectiles/fireball",
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 400,
+          "damage": 35,
+          "range": 280,
+          "attack_speed": 1.5
+        },
+        {
+          "level": 3,
+          "cost": 600,
+          "damage": 55,
+          "range": 300,
+          "attack_speed": 1.8
+        }
+      ]
+    },
+    {
+      "id": "ice_tower",
+      "name": "Ice Tower",
+      "description": "Slows enemies with frost attacks",
+      "cost": 250,
+      "range": 220,
+      "damage": 18,
+      "attack_speed": 1.3,
+      "projectile_speed": 320,
+      "texture": "towers/tower_16",
+      "projectile_texture": "projectiles/ice_shard",
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 350,
+          "damage": 30,
+          "range": 240,
+          "attack_speed": 1.6
+        },
+        {
+          "level": 3,
+          "cost": 550,
+          "damage": 45,
+          "range": 260,
+          "attack_speed": 1.9
+        }
+      ]
+    },
+    {
+      "id": "lightning_tower",
+      "name": "Lightning Tower",
+      "description": "Chain lightning attacks multiple targets",
+      "cost": 400,
+      "range": 280,
+      "damage": 25,
+      "attack_speed": 1.0,
+      "projectile_speed": 500,
+      "texture": "towers/tower_18",
+      "projectile_texture": "projectiles/lightning",
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 600,
+          "damage": 40,
+          "range": 300,
+          "attack_speed": 1.3
+        },
+        {
+          "level": 3,
+          "cost": 900,
+          "damage": 60,
+          "range": 320,
+          "attack_speed": 1.6
+        }
+      ]
+    },
+    {
+      "id": "poison_tower",
+      "name": "Poison Tower",
+      "description": "Applies damage over time effects",
+      "cost": 350,
+      "range": 240,
+      "damage": 12,
+      "attack_speed": 1.4,
+      "projectile_speed": 280,
+      "texture": "towers/tower_19",
+      "projectile_texture": "projectiles/poison_dart",
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 500,
+          "damage": 20,
+          "range": 260,
+          "attack_speed": 1.7
+        },
+        {
+          "level": 3,
+          "cost": 800,
+          "damage": 32,
+          "range": 280,
+          "attack_speed": 2.0
+        }
+      ]
+    },
+    {
+      "id": "ballista",
+      "name": "Ballista",
+      "description": "Very long range piercing attacks",
+      "cost": 450,
+      "range": 350,
+      "damage": 60,
+      "attack_speed": 0.6,
+      "projectile_speed": 600,
+      "texture": "towers/tower_23",
+      "projectile_texture": "projectiles/ballista_bolt",
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 700,
+          "damage": 90,
+          "range": 380,
+          "attack_speed": 0.8
+        },
+        {
+          "level": 3,
+          "cost": 1100,
+          "damage": 130,
+          "range": 400,
+          "attack_speed": 1.0
+        }
+      ]
+    },
+    {
+      "id": "flame_tower",
+      "name": "Flame Tower",
+      "description": "High damage fire attacks",
+      "cost": 500,
+      "range": 200,
+      "damage": 70,
+      "attack_speed": 0.9,
+      "projectile_speed": 250,
+      "texture": "towers/tower_24",
+      "projectile_texture": "projectiles/fireball_large",
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 750,
+          "damage": 100,
+          "range": 220,
+          "attack_speed": 1.1
+        },
+        {
+          "level": 3,
+          "cost": 1200,
+          "damage": 140,
+          "range": 240,
+          "attack_speed": 1.3
+        }
+      ]
+    },
+    {
+      "id": "tesla_tower",
+      "name": "Tesla Tower",
+      "description": "Rapid electrical attacks",
+      "cost": 600,
+      "range": 180,
+      "damage": 15,
+      "attack_speed": 3.0,
+      "projectile_speed": 450,
+      "texture": "towers/tower_25",
+      "projectile_texture": "projectiles/electirc_arc",
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 900,
+          "damage": 25,
+          "range": 200,
+          "attack_speed": 3.5
+        },
+        {
+          "level": 3,
+          "cost": 1400,
+          "damage": 40,
+          "range": 220,
+          "attack_speed": 4.0
+        }
+      ]
+    },
+    {
+      "id": "arcane_tower",
+      "name": "Arcane Tower",
+      "description": "Mystical attacks ignore armor",
+      "cost": 800,
+      "range": 300,
+      "damage": 45,
+      "attack_speed": 1.1,
+      "projectile_speed": 380,
+      "texture": "towers/tower_30",
+      "projectile_texture": "projectiles/arcane_orb",
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 1200,
+          "damage": 65,
+          "range": 320,
+          "attack_speed": 1.4
+        },
+        {
+          "level": 3,
+          "cost": 1800,
+          "damage": 90,
+          "range": 340,
+          "attack_speed": 1.7
+        }
+      ]
+    },
+    {
+      "id": "sniper_tower",
+      "name": "Sniper Tower",
+      "description": "Extreme range single target damage",
+      "cost": 700,
+      "range": 500,
+      "damage": 150,
+      "attack_speed": 0.4,
+      "projectile_speed": 800,
+      "texture": "towers/tower_39",
+      "projectile_texture": "projectiles/sniper_round",
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 1000,
+          "damage": 220,
+          "range": 550,
+          "attack_speed": 0.5
+        },
+        {
+          "level": 3,
+          "cost": 1600,
+          "damage": 300,
+          "range": 600,
+          "attack_speed": 0.6
+        }
+      ]
+    },
+    {
+      "id": "artillery_tower",
+      "name": "Artillery Tower",
+      "description": "Massive AoE explosive damage",
+      "cost": 1000,
+      "range": 400,
+      "damage": 120,
+      "attack_speed": 0.3,
+      "projectile_speed": 200,
+      "texture": "towers/tower_50",
+      "projectile_texture": "projectiles/artillery_shell",
+      "upgrades": [
+        {
+          "level": 2,
+          "cost": 1500,
+          "damage": 180,
+          "range": 450,
+          "attack_speed": 0.4
+        },
+        {
+          "level": 3,
+          "cost": 2200,
+          "damage": 250,
+          "range": 500,
+          "attack_speed": 0.5
+        }
+      ]
+    }
+  ]
+}
